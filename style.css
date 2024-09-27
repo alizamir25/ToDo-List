@@ -1,14 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Arimo:400,700|Roboto+Slab:400,700");
-
 :root {
   font-size: calc(0.5vw + 1vh);
 }
-
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 body {
   min-width: 420px;
   background: #060818;
@@ -26,26 +23,21 @@ body {
     scale: 1;
   }
 }
-
 h1,
 h4 {
   font-family: "Arimo", sans-serif;
   line-height: 1.3;
 }
-
 header h1 {
   font-size: 5.4rem;
   margin: 4rem 0 0 0;
 }
-
 span {
   font-size: 3rem;
 }
-
 p {
   font-family: "Roboto Slab", serif;
 }
-
 a,
 a:link,
 a:active,
@@ -54,12 +46,10 @@ a:visited {
   text-decoration: none;
   border-bottom: #000013 0.16rem solid;
 }
-
 a:hover {
   color: #000013;
   border-bottom: #0066aa 0.16rem solid;
 }
-
 header,
 footer {
   width: 40rem;
@@ -67,7 +57,6 @@ footer {
   text-align: center;
   font-size: 22px;
 }
-
 .add-task-container {
   width: 50%;
   justify-content: space-between;
@@ -82,13 +71,11 @@ footer {
   box-shadow: 18px 20px 10.3px -23px rgb(0 0 0 / 15%);
   font-size: 18px;
 }
-
 .main-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-
 .columns {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -100,7 +87,6 @@ footer {
   width: 80%;
   color: #bfc9d4;
 }
-
 .column {
   width: 100%;
   flex: 1;
@@ -112,35 +98,28 @@ footer {
   border: 1px solid #1b2e4b;
   box-shadow: 18px 20px 10.3px -23px rgb(0 0 0 / 15%);
 }
-
 .column-header {
   font-size: 17px;
   border-bottom: #000013 0.2rem solid;
 }
-
 .column-header h4 {
   text-align: center;
 }
-
 .task-list {
   min-height: 3rem;
 }
-
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-
 li {
   list-style-type: none;
 }
-
 .column-button {
   text-align: center;
   padding: 0.1rem;
 }
-
 .button {
   font-family: "Arimo", sans-serif;
   font-weight: 700;
@@ -151,16 +130,13 @@ li {
   margin-bottom: 0.3rem;
   cursor: pointer;
 }
-
 .delete-button {
   background-color: #ff4444;
   margin: 0.1rem auto 0.6rem auto;
 }
-
 .delete-button:hover {
   background-color: #fa7070;
 }
-
 .add-button {
   background-color: #ffcb1e;
   padding: 0 1rem;
@@ -168,11 +144,9 @@ li {
   width: 10rem;
   margin-top: 0.6rem;
 }
-
 .add-button:hover {
   background-color: #ffdd6e;
 }
-
 .task {
   background: #1b2e4b;
   margin: 0.4rem;
@@ -188,7 +162,6 @@ li {
   border-radius: 10px;
   font-size: 15px;
 }
-
 #taskText {
   border: #161515 0.15rem solid;
   border-radius: 0.2rem;
@@ -200,13 +173,9 @@ li {
   background: #1b2e4b;
   color: #bfc9d4 !important;
 }
-
 .task p {
   margin: auto;
 }
-
-/* Dragula CSS Release 3.2.0 from: https://github.com/bevacqua/dragula */
-
 .gu-mirror {
   position: fixed !important;
   margin: 0 !important;
@@ -215,18 +184,15 @@ li {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
   filter: alpha(opacity=80);
 }
-
 .gu-hide {
   display: none !important;
 }
-
 .gu-unselectable {
   -webkit-user-select: none !important;
   -moz-user-select: none !important;
   -ms-user-select: none !important;
   user-select: none !important;
 }
-
 .gu-transit {
   opacity: 0.2;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
