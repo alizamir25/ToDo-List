@@ -15,10 +15,8 @@
         <input type="text" maxlength="12" id="taskText" placeholder="New Activity..." onkeydown="if (event.keyCode == 13) document.getElementById('add').click()">
         <button id="add" class="button add-button" onclick="addTask()">Add</button>
       </div>
-      
       <div class="main-container">
         <ul class="columns">
-      
           <li class="column to-do-column">
             <div class="column-header">
               <h4>To Do</h4>
@@ -38,7 +36,6 @@
               </li>
             </ul>
           </li>
-      
           <li class="column doing-column">
             <div class="column-header">
               <h4>In Progress</h4>
@@ -55,7 +52,6 @@
               </li>
             </ul>
           </li>
-      
           <li class="column done-column">
             <div class="column-header">
               <h4>Completed</h4>
@@ -69,7 +65,6 @@
               </li>
             </ul>
           </li>
-      
           <li class="column trash-column">
             <div class="column-header">
               <h4>Trash</h4>
@@ -86,7 +81,6 @@
               <button class="button delete-button" onclick="emptyTrash()">Delete</button>
             </div>
           </li>
-      
         </ul>
       </div>
 </body>
