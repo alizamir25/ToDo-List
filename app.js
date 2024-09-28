@@ -18,12 +18,12 @@ dragula([
       container.className.replace("ex-over", "");
     });
   
-  function addTask() {
+  function addTask(){
     var inputTask=document.getElementById("taskText").value;
     document.getElementById("to-do").innerHTML+=
       "<li class='task'><p>"+inputTask+"</p></li>";
     document.getElementById("taskText").value="";
   }
-  function emptyTrash() {
+  function emptyTrash(){
     document.getElementById("trash").innerHTML="";
   }
