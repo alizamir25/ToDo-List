@@ -5,16 +5,16 @@ dragula([
     document.getElementById("trash")
   ]);
   removeOnSpill: false
-    .on("drag", function (el) {
+    .on("drag", function (el){
       el.className.replace("ex-moved", "");
     })
-    .on("drop", function (el) {
+    .on("drop", function (el){
       el.className += "ex-moved";
     })
-    .on("over", function (el, container) {
+    .on("over", function (el, container){
       container.className += "ex-over";
     })
-    .on("out", function (el, container) {
+    .on("out", function (el, container){
       container.className.replace("ex-over", "");
     });
   
