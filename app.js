@@ -17,7 +17,6 @@ dragula([
     .on("out", function (el, container){
       container.className.replace("ex-over", "");
     });
-  
   function addTask(){
     var inputTask=document.getElementById("taskText").value;
     document.getElementById("to-do").innerHTML+=
