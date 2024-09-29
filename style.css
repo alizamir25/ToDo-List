@@ -197,8 +197,8 @@ li{
   opacity: 0.2;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
   filter: alpha(opacity=20);
-  border: 1px solid #00ff7f !important;
-  box-shadow: 1px 0 4px 1px #00ff7f !important;
+  border: 1px solid #00ff7f ;
+  box-shadow: 1px 0 4px 1px #00ff7f ;
   transform: scale(1.02);
 }
 .gu-mirror{
